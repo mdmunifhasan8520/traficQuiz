@@ -28,11 +28,7 @@ class TraficViewController: UIViewController {
         super.viewDidLoad()
         
         tblView.tableFooterView = UIView()
-        // Do any additional setup after loading the view, typically from a nib.
-        /*
-         if let x = UserDefaults.standard.object(forKey: "ckeck") as? UITableView {
-         tblView = x
-         }*/
+     
         
         
     }
