@@ -22,6 +22,7 @@
                                 <rect key="frame" x="132" y="398" width="136" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.093362398445606232" green="0.55957585573196411" blue="0.13055965304374695" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Quiz">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -33,6 +34,7 @@
                                 <rect key="frame" x="132" y="286" width="136" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.093362398445606232" green="0.55957585573196411" blue="0.13055965304374695" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Read">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -694,9 +696,8 @@
         <image name="png-wrong-cross-png-small-medium-large-600" width="600" height="592"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="OAb-vP-gbB"/>
         <segue reference="QQb-Xo-ghi"/>
         <segue reference="k0h-d0-NE6"/>
-        <segue reference="Aqe-XH-hSp"/>
+        <segue reference="N7J-r5-A1Q"/>
     </inferredMetricsTieBreakers>
 </document>
