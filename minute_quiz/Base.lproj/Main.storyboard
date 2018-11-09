@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="80G-qx-FsG">
             <objects>
-                <viewController id="p7M-3T-R5M" sceneMemberID="viewController">
+                <viewController id="p7M-3T-R5M" customClass="FirstViewController" customModule="minute_quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3gf-YW-jeu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,6 +38,9 @@
                                 <state key="normal" title="Read">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Ubl-HQ-hSf" kind="show" id="th9-g0-Uf1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -687,6 +690,82 @@
             </objects>
             <point key="canvasLocation" x="66.666666666666671" y="-24.456521739130437"/>
         </scene>
+        <!--Trafic View Controller-->
+        <scene sceneID="dhy-zn-wcf">
+            <objects>
+                <viewController id="Ubl-HQ-hSf" customClass="TraficViewController" customModule="minute_quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0NF-tX-vQG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="h9E-xK-W1w">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="668"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.093362398449999995" green="0.55957585570000001" blue="0.130559653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cells" rowHeight="75" id="ocl-bf-c2X" customClass="MyTableViewCell" customModule="minute_quiz">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ocl-bf-c2X" id="5Gi-nj-vQY">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="74.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="round_about-6" translatesAutoresizingMaskIntoConstraints="NO" id="QIu-rD-4nW">
+                                                    <rect key="frame" x="20" y="11" width="56" height="53"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJM-BN-8wJ">
+                                                    <rect key="frame" x="97" y="27" width="305" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="cellImageView" destination="QIu-rD-4nW" id="JMZ-Kp-pdF"/>
+                                            <outlet property="cellTitle" destination="pJM-BN-8wJ" id="hTG-zX-gtd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ubl-HQ-hSf" id="hEU-64-XKN"/>
+                                    <outlet property="delegate" destination="Ubl-HQ-hSf" id="gXD-pS-JeD"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIW-y6-GXN" customClass="RoundButton" customModule="minute_quiz" customModuleProvider="target">
+                                <rect key="frame" x="20" y="676" width="129" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.105534263" green="0.036613680420000003" blue="0.030278839169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="BACK" backgroundImage="Default.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Home:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I1R-zY-GuY"/>
+                                    <segue destination="p7M-3T-R5M" kind="show" id="7Ot-lC-IfA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zEu-gp-rEO"/>
+                    </view>
+                    <connections>
+                        <outlet property="tblView" destination="h9E-xK-W1w" id="JOn-X5-bcf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U2W-eJ-jDn" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2357.971014492754" y="-516.03260869565224"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Default.png" width="320" height="568"/>
@@ -694,10 +773,12 @@
         <image name="Diego Maradona_A" width="256" height="300"/>
         <image name="checkmark-png-17-1-468x450" width="468" height="450"/>
         <image name="png-wrong-cross-png-small-medium-large-600" width="600" height="592"/>
+        <image name="round_about-6" width="340" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QQb-Xo-ghi"/>
-        <segue reference="k0h-d0-NE6"/>
+        <segue reference="EaI-tN-dhs"/>
+        <segue reference="XPh-24-Stp"/>
         <segue reference="N7J-r5-A1Q"/>
+        <segue reference="M8c-fI-hye"/>
     </inferredMetricsTieBreakers>
 </document>
