@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FA1C747E210D03DF00ED639D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C747D210D03DF00ED639D /* Question.swift */; };
 		FA1C7480210D0D3C00ED639D /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C747F210D0D3C00ED639D /* QuestionBank.swift */; };
+		FA24E34921962123004F96B9 /* DataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24E34821962123004F96B9 /* DataModal.swift */; };
+		FA24E34B21962144004F96B9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24E34A21962144004F96B9 /* HeaderView.swift */; };
+		FA24E34D2196215F004F96B9 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24E34C2196215F004F96B9 /* DetailsViewController.swift */; };
+		FA24E34F21962164004F96B9 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24E34E21962164004F96B9 /* tableViewCell.swift */; };
 		FA518D75211804ED002F9F09 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA518D74211804ED002F9F09 /* Pulsing.swift */; };
 		FA85DCC3211CB0C100C636EF /* LevelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DCC2211CB0C100C636EF /* LevelViewCell.swift */; };
 		FA85DCC5211CB1E700C636EF /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85DCC4211CB1E700C636EF /* LevelViewController.swift */; };
@@ -29,6 +33,10 @@
 /* Begin PBXFileReference section */
 		FA1C747D210D03DF00ED639D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		FA1C747F210D0D3C00ED639D /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		FA24E34821962123004F96B9 /* DataModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModal.swift; sourceTree = "<group>"; };
+		FA24E34A21962144004F96B9 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		FA24E34C2196215F004F96B9 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		FA24E34E21962164004F96B9 /* tableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
 		FA518D74211804ED002F9F09 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
 		FA85DCC2211CB0C100C636EF /* LevelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewCell.swift; sourceTree = "<group>"; };
 		FA85DCC4211CB1E700C636EF /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +70,10 @@
 		FA89844E210CEC2200AA94AF = {
 			isa = PBXGroup;
 			children = (
+				FA24E34E21962164004F96B9 /* tableViewCell.swift */,
+				FA24E34C2196215F004F96B9 /* DetailsViewController.swift */,
+				FA24E34A21962144004F96B9 /* HeaderView.swift */,
+				FA24E34821962123004F96B9 /* DataModal.swift */,
 				FA898470210CEE7000AA94AF /* Default-568h@2x.png */,
 				FA898459210CEC2300AA94AF /* minute_quiz */,
 				FA898458210CEC2300AA94AF /* Products */,
@@ -208,11 +220,15 @@
 				FACA2609210E8DDA0002CF7C /* ArchiveViewController.swift in Sources */,
 				FA518D75211804ED002F9F09 /* Pulsing.swift in Sources */,
 				FA85DCC5211CB1E700C636EF /* LevelViewController.swift in Sources */,
+				FA24E34F21962164004F96B9 /* tableViewCell.swift in Sources */,
 				FA85DCC3211CB0C100C636EF /* LevelViewCell.swift in Sources */,
 				FA1C7480210D0D3C00ED639D /* QuestionBank.swift in Sources */,
 				FA8970502119DDA800F38A74 /* RoundButton.swift in Sources */,
+				FA24E34921962123004F96B9 /* DataModal.swift in Sources */,
 				FAE932D821141D8800CA5517 /* ArchiveDetailsViewController.swift in Sources */,
 				FAE932D4211359D300CA5517 /* CollectionViewCell.swift in Sources */,
+				FA24E34B21962144004F96B9 /* HeaderView.swift in Sources */,
+				FA24E34D2196215F004F96B9 /* DetailsViewController.swift in Sources */,
 				FA89845D210CEC2300AA94AF /* ViewController.swift in Sources */,
 				FA89845B210CEC2300AA94AF /* AppDelegate.swift in Sources */,
 				FACA2605210E46DD0002CF7C /* StartScreenViewController.swift in Sources */,
