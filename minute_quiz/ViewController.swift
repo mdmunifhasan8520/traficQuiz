@@ -9,23 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    /*
-    
-    @IBOutlet weak var tblView: UITableView!
-    
-    
-    
-    var data = [
-        
-        
-        DataMadal(headerImage: "alert23", headerName: "Alert Signs", subType: ["Trafic light","Round About", "Double Bend First Left", "Dual Carriageway Ends", "Height Limit Ahead", "Road Narrow On Both Sides","Road Narrows In The Right","Sharp Bend To The Right","Steep Hill Downwards","Steep Hill Upwards","Two Way Traffic Straight Ahead"], subTypeImage: ["trafic_light","round_about", "Double_Bend_First_Left", "Dual_Carriageway_Ends", "Height_Limit_Ahead", "Road_Narrow_On_Both_Sides","Road_Narrows_In_The_Right","sharp_bend_to_the_right","Steep_Hill_Downwards","Steep_Hill_Upwards","Two_way_Traffic_Straight_Ahead"], isExpandable: false),
-        DataMadal(headerImage: "manban2", headerName: "Mandatory Ban Signs", subType: ["No Overtaking","No Rickshaws","No Trucks","No U Turn","No Use Of Horn"], subTypeImage: ["No_Overtaking","No_Rickshaws","No_Trucks","No_U_Turn","No_Use_Of_Horn"], isExpandable: false),
-        DataMadal(headerImage: "mango2", headerName: "Mandatory Go Signs", subType: ["Ahead Only","Route For Cycles Only","Route For Rickshaws Only","Turn Left","Turn Right"], subTypeImage: ["Ahead_Only","Route_For_Cycles_Only","Route_For_Rickshaws_Only","Turn_Left","Turn_Right"], isExpandable: false),
-        DataMadal(headerImage: "GO", headerName: "Guiding Information Signs", subType: ["Bike Route","Exit","Parking","Post Office"], subTypeImage: ["Bike_Route","Exit","Parking","Post_Office"], isExpandable: false),
-        DataMadal(headerImage: "Speed_Limit_Road", headerName: "Similar Signs & Roadmarks", subType: ["Pedestrian Crossing road","Speed Limit Road"], subTypeImage: ["Pedestrian_Crossing_road","Speed_Limit_Road"], isExpandable: false)
-        
-    ]
-    */
+ 
     //create a QuestioBank object
     let allQuestions = QuestionBank()
     

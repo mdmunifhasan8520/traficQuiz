@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "minute_quiz/ViewController.swift"
-            timestampString = "563490109.870737"
+            timestampString = "563540743.0025541"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "ViewController"
             landmarkType = "3">
             <Locations>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "minute_quiz/ViewController.swift"
-            timestampString = "563490109.871074"
+            timestampString = "563540743.002911"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "ViewController"
             landmarkType = "3">
             <Locations>
