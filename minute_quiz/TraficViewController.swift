@@ -29,7 +29,7 @@ class TraficViewController: UIViewController {
         
         tblView.tableFooterView = UIView()
      
-        
+      
         
     }
     
