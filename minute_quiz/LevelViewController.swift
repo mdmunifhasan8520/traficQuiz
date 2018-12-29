@@ -18,7 +18,7 @@ class LevelViewController: UIViewController, UICollectionViewDataSource, UIColle
     
     //var questionNumber = 0
     
-    var name = ["Level 1","Level 2","Level 3","Level 4","Level 5"]
+    var name = ["Alert Signs","Guiding Information Signs","Mandatory Ban Signs","Mandatory Go Signs","Similar Signs & Roadmarks"]
     var myLevelIndex = 0
     
     override func viewDidLoad() {

@@ -78,7 +78,6 @@
 		FA89844E210CEC2200AA94AF = {
 			isa = PBXGroup;
 			children = (
-				FA898470210CEE7000AA94AF /* Default-568h@2x.png */,
 				FA898459210CEC2300AA94AF /* minute_quiz */,
 				FA898458210CEC2300AA94AF /* Products */,
 			);
@@ -95,12 +94,6 @@
 		FA898459210CEC2300AA94AF /* minute_quiz */ = {
 			isa = PBXGroup;
 			children = (
-				FA24E3522196257E004F96B9 /* js */,
-				FA24E35021962577004F96B9 /* html */,
-				FA24E34821962123004F96B9 /* DataModal.swift */,
-				FA24E34A21962144004F96B9 /* HeaderView.swift */,
-				FA24E34E21962164004F96B9 /* tableViewCell.swift */,
-				FA24E34C2196215F004F96B9 /* DetailsViewController.swift */,
 				FA89846D210CEDE600AA94AF /* Model */,
 				FA89846C210CEDBA00AA94AF /* Controller */,
 				FA89846E210CEE1700AA94AF /* View */,
@@ -117,11 +110,9 @@
 				FA89845C210CEC2300AA94AF /* ViewController.swift */,
 				FAE932D52113D47B00CA5517 /* SettingsViewController.swift */,
 				FACA2608210E8DDA0002CF7C /* ArchiveViewController.swift */,
-				FAE932D3211359D300CA5517 /* CollectionViewCell.swift */,
 				FAE932D721141D8800CA5517 /* ArchiveDetailsViewController.swift */,
 				FA89845A210CEC2300AA94AF /* AppDelegate.swift */,
-				FA518D74211804ED002F9F09 /* Pulsing.swift */,
-				FA85DCC2211CB0C100C636EF /* LevelViewCell.swift */,
+				FA24E34C2196215F004F96B9 /* DetailsViewController.swift */,
 				FA24E354219629D5004F96B9 /* TraficViewController.swift */,
 				FA24E35621962CC1004F96B9 /* FirstViewController.swift */,
 			);
@@ -131,8 +122,12 @@
 		FA89846D210CEDE600AA94AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FA24E34821962123004F96B9 /* DataModal.swift */,
 				FA1C747D210D03DF00ED639D /* Question.swift */,
 				FA1C747F210D0D3C00ED639D /* QuestionBank.swift */,
+				FA24E34E21962164004F96B9 /* tableViewCell.swift */,
+				FAE932D3211359D300CA5517 /* CollectionViewCell.swift */,
+				FA85DCC2211CB0C100C636EF /* LevelViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +135,8 @@
 		FA89846E210CEE1700AA94AF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA518D74211804ED002F9F09 /* Pulsing.swift */,
+				FA24E34A21962144004F96B9 /* HeaderView.swift */,
 				FA89704F2119DDA800F38A74 /* RoundButton.swift */,
 				FA89845E210CEC2300AA94AF /* Main.storyboard */,
 				FA898461210CEC2C00AA94AF /* Assets.xcassets */,
@@ -151,7 +148,10 @@
 		FA89846F210CEE4900AA94AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA24E3522196257E004F96B9 /* js */,
+				FA24E35021962577004F96B9 /* html */,
 				FA898463210CEC2C00AA94AF /* LaunchScreen.storyboard */,
+				FA898470210CEE7000AA94AF /* Default-568h@2x.png */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";

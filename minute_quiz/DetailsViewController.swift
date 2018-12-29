@@ -32,7 +32,7 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
         
         if detailTitle.text == "Trafic light" {
             
-            detailTextView.text = "A road signal for directing vehicular traffic by means of colored lights, typically red for stop, green for go, and yellow for proceed with caution. Also called stoplight, traffic signal."
+            detailTextView.text = "Traffic signals change from green to yellow to warn approaching vehicles that the signal is about to turn red. The length of the yellow signal depends on the speed limit of the road. Most urban intersections have a yellow time of four to six seconds. The yellow signal means stop if it is safe to do so and the red signal implies vehicles to stop immediately at the exact moment of seeing it."
             
             let htmlPath = Bundle.main.path(forResource: "html/index_2_light", ofType: "html")
             let folderPath = Bundle.main.bundlePath
@@ -47,7 +47,7 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
         
         if detailTitle.text == "Round About" {
             
-            detailTextView.text = "Indicates that a roundabout is ahead. Slow down when you see this sign."
+            detailTextView.text = "Indicates that a circular driveway ahead. Slowly drive while turning alongside the bend."
             
             let htmlPath = Bundle.main.path(forResource: "html/index", ofType: "html")
             let folderPath = Bundle.main.bundlePath
@@ -61,7 +61,7 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
         }
         if detailTitle.text == "Double Bend First Left" {
             
-            detailTextView.text = "These signs indicate that ahead are dangerous or unexpected bends in the road, some being continuous, others being sharp-ended.Signs indicate the curves are to the left whether the degree to which the curves or bends are sharp. They may also indicate a series of curves or bends ahead."
+            detailTextView.text = "There are two bends ahead, First is to the left. Slowly drive while turning alongside bends."
             
             let htmlPath = Bundle.main.path(forResource: "html/Double_Bend_First_Left", ofType: "html")
             let folderPath = Bundle.main.bundlePath
@@ -76,11 +76,11 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
         }
         if detailTitle.text == "Dual Carriageway Ends" {
             
-            detailTextView.text = "A dual carriageway is a road which has two lanes of traffic travelling in each direction with a strip of grass or concrete down the middle to separate the two lots of traffic."
+            detailTextView.text = "Dual carriageway of the road meets ahead and becomes one."
         }
         if detailTitle.text == "Height Limit Ahead" {
             
-            detailTextView.text = "Prohibiting vehicles above a certain height are used mainly at non—arch bridges and other structures.These signs should not be used at arch bridges, as the main risk to these is from vehicles which, although low enough to pass through the central part of the arch, might strike the curved shoulder of the structure."
+            detailTextView.text = "Vehicles having the height above 4.5meters can't go through the road ahead."
             
             let htmlPath = Bundle.main.path(forResource: "html/Height_limit", ofType: "html")
             let folderPath = Bundle.main.bundlePath
@@ -95,19 +95,19 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
         }
         if detailTitle.text == "Road Narrow On Both Sides" {
             
-            detailTextView.text = "Narrow means less wide or to make less wide. When you narrow down your choices, you decrease the number of choices. A road might be too narrow for a car. When used to describe something physical such as a street or hips, narrow simply means not wide."
+            detailTextView.text = "Road narrows infront from both sides. Watch out for vehicles alongside."
             
             
         }
         if detailTitle.text == "Road Narrows In The Right" {
             
-            detailTextView.text = "Narrow means less wide or to make less wide. When you narrow down your choices, you decrease the number of choices. A road might be too narrow for a car. When used to describe something physical such as a street or hips, narrow simply means not wide."
+            detailTextView.text = "Road narrows ahead on the right side. Watch out for the vehicles on your right-side."
             
             
         }
         if detailTitle.text == "Sharp Bend To The Right" {
             
-            detailTextView.text = "These signs indicate that ahead are dangerous or unexpected bends in the road, some being continuous, others being sharp-ended.Signs indicate the curves are to the right whether the degree to which the curves or bends are sharp. They may also indicate a series of curves or bends ahead."
+            detailTextView.text = "There is a bend all at once right-side off the road. Turn carefully."
             
             let htmlPath = Bundle.main.path(forResource: "html/Sharp_bend_right", ofType: "html")
             let folderPath = Bundle.main.bundlePath
@@ -123,100 +123,100 @@ class DetailsViewController: UIViewController, WKNavigationDelegate {
         
         if detailTitle.text == "Steep Hill Downwards" {
             
-            detailTextView.text = "The sign indicates a steep hill downwards.Having or being a slope or gradient approaching the perpendicular."
+            detailTextView.text = "Indicates that the road ahead is declining. Keep your leg on the break while driving forward."
             
             
         }
         if detailTitle.text == "Steep Hill Upwards" {
             
-            detailTextView.text = "The sign indicates a steep hill upwards.A steep slope rises at a very sharp angle and is difficult to go up."
+            detailTextView.text = "The road is steeping upright ahead. Speed-up while driving."
             
             
         }
         
         if detailTitle.text == "Two Way Traffic Straight Ahead" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road."
+            detailTextView.text = "Indicates that it's a two way double-lane road. One will be placed on either side of the road in good time before the road merges, and again on either side where the road merges."
             
         }
         if detailTitle.text == "No Overtaking" {
             
-            detailTextView.text = "The no overtaking road sign is circular with a red border meaning that it is giving drivers an order. As the no overtaking sign is regulatory, it is illegal to overtake. The no overtaking restriction ends when the lines in the road change from a continuous white line, to a broken line."
+            detailTextView.text = "Do not speed-up to overtake front vehicles. Drive along with your queue."
             
         }
         if detailTitle.text == "No Rickshaws" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "No rickshaw is allowed in this road."
             
         }
         if detailTitle.text == "No Trucks" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "No truck is allowed in this road."
             
         }
         if detailTitle.text == "No U Turn" {
             
-            detailTextView.text = "Where it is prohibited for vehicles to reverse their direction by makingaU turn. This will usually be because the manoeuvre is dangerous or will cause congestion, such as at a gap in the median on a high-speed road, or at a busy junction."
+            detailTextView.text = "There is bend ahead, but u-turn is prohibited as its one way road."
             
         }
         if detailTitle.text == "No Use Of Horn" {
             
-            detailTextView.text = "Thissign is used outside hospitalsin particular and elsewhere in built-up areas where the use of vehicle hornsis prohibited."
+            detailTextView.text = "Using of horn is prohibited in this area."
             
         }
         if detailTitle.text == "Ahead Only" {
             
-            detailTextView.text = "This sign indicates that at the junction vehicular traffic may proceed in a forward direction only. Typically the sign will be used at the approach to a junction in a one way system to indicate the direction of traffic flow.Supplementary plate D13 One Way may be added to explain why the sign is being used."
+            detailTextView.text = "One way road, drive forward only."
             
         }
         if detailTitle.text == "Route For Cycles Only" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "This route is only for bicycles."
             
         }
         if detailTitle.text == "Route For Rickshaws Only" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "This route is only for rickshaws. No automobile vehicles can enter."
             
         }
         if detailTitle.text == "Turn Left" {
             
-            detailTextView.text = "Vehicular traffic may only proceed in the direction indicated by the arrow.Typically the sign will be used at a junction in a one way system. It is also commonly used on roundabout central islands (opposite entrances) to stop drivers going the wrong way round the roundabout. Another use isto indicate the direction offlowto traffic joining a dual carriageway from a side road."
+            detailTextView.text = "Indicates there's a bend on the left-side of the road. Turn left slowly."
             
         }
         if detailTitle.text == "Turn Right" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "Indicates there's a bend on the right-side of the road. Turn right slowly."
             
         }
         if detailTitle.text == "Bike Route" {
             
-            detailTextView.text = "It consists of interstate long-distance cycling routes that use multiple types of bicycling infrastructure, including off-road paths, bicycle lanes, and low-traffic roads."
+            detailTextView.text = "This side of the road is only for bicycle/motocycle. "
             
         }
         if detailTitle.text == "Exit" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "The leaving path is this way."
             
         }
         if detailTitle.text == "Parking" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "Parking ahead, drive steady and watch out other vehicles."
             
         }
         if detailTitle.text == "Post Office" {
             
-            detailTextView.text = "A two-way street is a street that allows vehicles to travel in both directions. On most two-way streets, especially main streets, a line is painted down the middle of the road to remind drivers to stay on their side of the road"
+            detailTextView.text = "Post-office is ahead, drive slowly."
             
         }
         if detailTitle.text == "Pedestrian Crossing road" {
             
-            detailTextView.text = "A pedestrian crossing (British English) or crosswalk (American English) is a place designated for pedestrians to cross a road. Crosswalks are designed to keep pedestrians together where they can be seen by motorists, and where they can cross most safely across the flow of vehicular traffic."
+            detailTextView.text = "Public crossing ahead in this way. Slow down your vehicle as caution."
             
         }
         if detailTitle.text == "Speed Limit Road" {
             
-            detailTextView.text = "Road speed limits are used in most countries to set the maximum (or minimum in some cases) speed at which road vehicles may legally travel on particular stretches of road. ... Speed limits are normally indicated on a traffic sign."
+            detailTextView.text = "Pedestrian walk ahead. Don't drive above 45km in this route."
             
         }
     }
